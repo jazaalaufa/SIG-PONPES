@@ -1,0 +1,108 @@
+ /* Created 2018.*/
+ /* Nurul Muttaqin - Mobile Web Specialist Batch 1 .*/
+
+html, body {
+ width: 100%;
+}
+body {
+ padding: 0;
+ margin: 0;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-gap: 4px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50% 20% 20% 20% 20%;
+}
+.peta {
+    grid-column: 1/-1;
+}
+.gambar {
+        margin-bottom: 10px;
+        background-color: white;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column: 1/4;
+    }
+    .review {
+        margin-bottom: 10px;
+        background-color: white;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column: 4/-1;
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    align-items: center;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 5px;
+}
+
+ @media screen and (max-width: 479px){
+    .container { 
+        margin: auto;
+        width: 100%; }
+    body {
+        background-color: #f7f3f3; 
+        margin-bottom: 20px;
+    }
+    img { width: 100%; }
+    .gambar {
+        margin-bottom: 10px;
+        background-color: white;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+    .review {
+        grid-row-start: 5;
+        grid-row-end: 7;
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+}
+
+@media screen and (min-width: 480px){
+        .container {
+        width: 100%;
+        margin: auto;
+    }
+    body {
+        background-color: #f7f3f3;
+    }
+    img { width: 100%; }
+    .gambar {
+        margin-bottom: 10px;
+        background-color: white;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column: 1/4;
+    }
+    .review {
+        margin-bottom: 10px;
+        background-color: white;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column: 4/-1;
+    }
+}
+
+

@@ -1,0 +1,111 @@
+body {
+	background: black;
+	color: #e3cbcb;
+}
+.carousel-item {
+	height: 500px;
+}
+
+/*.form-control {
+	background-color: transparent;
+	border: 1px solid #ffffff54;
+	color: #e3cbcb; 
+}*/
+.form-control {
+    height: calc(1.5em + .5rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    background-color: #fff0;
+    border: 1px solid #ced4da94;
+}
+.form-control:focus {
+	color: #e3cbcb; 
+	background-color: transparent;
+	border-color: #ffffff9e;
+}
+
+.nav-link.active img {
+	margin-top: -96px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	background: #151b19;
+	border-color: transparent;
+}
+.nav-tabs {
+	border-bottom: 0px solid #dee2e6;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	border-color: transparent;
+	
+}
+.sticky-top.scrolled {
+	background-color: #151410 !important;
+	transition: background-color 200ms linear;
+}
+
+.tab-pane p, h3 {
+	padding: 20px;
+	color: #e3cbcb;
+}
+.nav-item p {
+	color: #e3cbcb;
+	text-align: center;
+}
+a.nav-item.nav-link {
+	/*width: 14.2%;*/
+	width: 12.5%;
+	/*margin: auto;*/
+}
+a.nav-item.nav-link.settings {
+	width: auto;
+}
+.card {
+	background-color: #1a2627; 
+}
+.card.images-page {
+	background:#151b19;
+}
+
+.post1 {
+	height: 96px; overflow: hidden;
+}
+.post1:hover img {
+	margin-top: -96px;
+}
+
+.alligator-turtle {
+	object-fit: cover;
+	object-position: 0 100%;
+
+	width: 100%;
+	height: 100%;
+}
+.bank-name {
+	filter: grayscale(50%);
+}
+.carousel-control-next, .carousel-control-prev {
+	top: 25%;
+	width: 8%;
+}
+
+.color--danger {
+	background: #a72f33;
+}
+.color--text-grey {
+	color: #e3cbcb;
+}
+footer.card {
+	background: #151b19;
+}
+.btn-custom {
+	color: #d4c8c8;
+	background-color: #563d7c;
+	border-color: #563d7c;
+}
+.btn-custom:hover {
+	color: white;
+	background-color: #8163b0;
+}
+

@@ -1,0 +1,50 @@
+ /* Created 2018.*/
+ /* Nurul Muttaqin - Mobile Web Specialist Batch 1.*/
+
+ .container {
+ 	width: 100%;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	
+ }
+
+ .box {
+ 	width: 100%;
+ 	
+ 	
+ }
+
+div#container2 { height: 100px; }
+
+.pink { background: pink; }
+.blue { background: blue;  }
+.green { background: green; }
+.red { background: red;  }
+.orange { background: orange; }
+
+ @media screen and (min-width: 500px) {
+ 	.pink {
+ 		width: 50%;
+
+ 	}
+ 	#container2 {
+ 		width: 50%;
+ 		
+ 	}
+ }
+
+ @media screen and (min-width: 600px) {
+ 	.pink {
+ 		width: 25%;
+ 		order: 1;
+
+ 	}
+ 	#container2 {
+ 		width: 50%;
+ 		
+ 	}
+ 	.red {
+ 		width: 25%;
+ 		order: -1;
+ 	}
+ }
